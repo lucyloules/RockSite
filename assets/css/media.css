@@ -62,9 +62,16 @@
 nav ul{
   display: none;
 }
+.menu{
+  display: none;
+}
+.menu-bars{
+  display: block;
+  color: #7D7D7F;
+  font-size: 2em;
+}
 .fa-bars{
   text-decoration: none;
-  display: block;
   float: right;
   color: #7D7D7F;
   font-size: 2em;
@@ -72,8 +79,14 @@ nav ul{
   border-radius: 1px;
   margin-left: 10em;
   outline: 1px solid red;
-/*padding: 0.2em 0.5em 0.2em 0.5em;*/
+  padding: 0.2em 0.5em 0.2em 0.5em;
 }
 .fa-bars:hover{
   color: #fff;
 }
+.star{
+  margin:0;
+  font-size: 1em;
+  padding-top: 0.8em;
+  outline: 1px solid red;
+  }
