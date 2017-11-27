@@ -2,7 +2,7 @@
 	font-family: 'Montserrat', sans-serif;
 	margin:auto; 
 }
-header{
+header, footer{
   background-color: #2D3338;
   width: 100%;
   height: 4em;
@@ -46,23 +46,58 @@ li a:hover{
 	width: 100%;
 	height: 30em;
 	background-image: url(../img/header.jpg);
-	background-size: 100%, 105%;
+	background-image: filter:contrast(50%);
+	background-size: 100%;
 	text-align: center;
-	-webkit-filter: contrast(50%);
+	-webkit-filter: contrast(70%);
 }
 .divOne{
 	padding: 2em;
 	padding-top: 11em;
-	-webkit-filter: brightness(200%);
+/*	-webkit-filter: brightness(200%);*/
 }
 .principalTitle, .subtitle{
 	color: #fff;
-	font-size: 5em;	
+	font-size: 6em;	
 	font-weight: lighter;
+
 }
 .subtitle{
 	font-size: 3em;
-	padding-top: 0em;
+	padding-top: 0.5em;
 }
+.weSalute, .guitar, .let{
+	outline: 1px solid green;
+}
+.guitarContent, .weSaluteContent,.letContent{
+	margin-top: 3em;
+	margin-bottom: 3em;
+	padding-left: 7em;
+	padding-right: 2em;
+	padding-top: 9em;
+	padding-bottom: 9em;
+	outline: 1px solid red;
+}
+.Title{
+	font-size: 3em;
+	
+}
+.guitar-img, .we-img, .let-img{
+	margin: 3em;
+	margin-left: 7em;
+	width: 28em;
+	height: 28em;
+	background-image: url(../img/rock1.jpg);
+	background-size: cover;
+	border-radius: 50%;
+	outline: 1px solid red;
+}
+.we-img{	background-image: url(../img/rock2.jpg);}
+.let-img{	background-image: url(../img/rock3.jpg);}
 
+.footParagraph{ 
+	color: #fff;
+	text-align: center;
+	padding-top: 1.4em;
+}
 
